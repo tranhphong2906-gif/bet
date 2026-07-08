@@ -1,0 +1,17 @@
+{
+  "name": "betvip-ai-bot",
+  "version": "1.0.0",
+  "description": "BETVIP AI Telegram Bot",
+  "main": "bet.js",
+  "scripts": {
+    "start": "node bet.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
