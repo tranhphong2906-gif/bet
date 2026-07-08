@@ -1,5 +1,5 @@
 // ✅ SỬA LỖI: Thêm .default vào cuối require để sửa lỗi Constructor trên Node.js mới
-const TelegramBot = require('node-telegram-bot-api').default;
+const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const express = require('express'); 
 
